@@ -1,0 +1,19 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 3,
+   "attributes": {
+      "max_health": 300,
+      "muscle": 15,
+      "menace": 200,
+      "courage": 250,
+      "speed": 90,
+      "additive_armor_modifier": 3,
+      "exp_reward": 150,
+      "aggro_addition": 150
+   },
+   "equipment": {
+      "weapon": [
+         "box_o_vox_necromancer:entities:weapon:fist_weapon"
+      ]
+   }
+}

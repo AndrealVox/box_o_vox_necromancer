@@ -1,0 +1,17 @@
+{
+   "crafter_menu": {
+      "items": {
+         "necromancer": {
+            "name": "i18n(box_o_vox_necromancer:ui.game.menu.crafter_menu.items.necromancer.display_name)",
+            "description": "i18n(box_o_vox_necromancer:ui.game.menu.crafter_menu.items.necromancer.description)",
+            "class": "button",
+            "required_job": "box_o_vox_necromancer:jobs:necromancer",
+            "required_job_text": "i18n(box_o_vox_necromancer:ui.game.menu.crafter_menu.items.necromancer.required_job_text)",
+            "icon": "/box_o_vox_necromancer/jobs/necromancer/images/necromancer_menu_icon.png",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:necromancer"
+         }
+      }
+   }
+}

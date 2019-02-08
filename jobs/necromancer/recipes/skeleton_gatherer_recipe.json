@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox_necromancer:jobs.necromancer.workers.gatherer.display_name)",
+   "description": "i18n(box_o_vox_necromancer:jobs.necromancer.workers.gatherer.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox_necromancer/entities/monsters/summoned/skeleton_gatherer/skeleton_gatherer.png",
+   "work_effect": "box_o_vox_necromancer:data:effects:summon_necronomicon",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "pelt resource",
+         "count": 20
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox_necromancer:entities:monsters:summoned:skeleton_gatherer"
+      }
+   ]
+}

@@ -1,0 +1,12 @@
+{
+   "mixins": "box_o_vox_necromancer/jobs/necromancer/recipes/skeleton_gatherer_recipe.json",
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "bone resource",
+         "count": 20
+      }
+   ]
+}

@@ -1,0 +1,38 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "actions": [
+               "box_o_vox_necromancer:ai:actions:combat:flame_skull_attack"
+            ],
+            "ai_packs": [
+               "stonehearth:ai_pack:ranged_combat"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "box_o_vox_necromancer:data:buffs:necromancer:flame_skull",
+               "chance": 1.0
+            }
+         }
+      },
+      "box_o_vox_necromancer:combat:ranged_spells": [
+         {
+            "name": "combat_spell",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "active_frames": [
+               16,
+               17
+            ],
+            "cooldown": 0,
+            "priority": 2
+         }
+      ]
+   }
+}

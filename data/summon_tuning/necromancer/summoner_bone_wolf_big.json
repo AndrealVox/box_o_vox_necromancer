@@ -1,0 +1,19 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 2,
+   "attributes": {
+      "max_health": 200,
+      "muscle": 10,
+      "menace": 150,
+      "courage": 150,
+      "speed": 120,
+      "additive_armor_modifier": 2,
+      "exp_reward": 100,
+      "aggro_addition": 100
+   },
+   "equipment": {
+      "weapon": [
+         "box_o_vox_necromancer:entities:weapon:undead_wolf_teeth"
+      ]
+   }
+}

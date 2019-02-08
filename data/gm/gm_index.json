@@ -1,0 +1,8 @@
+{
+   "type": "index",
+   "campaigns": {
+      "necromancy": {
+         "necromancer": "file(campaigns/necromancy/necromancy_campaign.json)"
+      }
+   }
+}
